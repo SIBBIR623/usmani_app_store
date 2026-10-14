@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>উসমানি অ্যাপ স্টোর - Usmani App Store</title>
-    <!-- Google Fonts: Anek Bangla & Hind Siliguri for Ultra-Premium Look -->
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;600;700&family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- SolaimanLipi Font Import from CDN -->
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     <style>
         :root {
             --primary-color: #0f172a;
@@ -19,12 +19,13 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Anek Bangla', 'Hind Siliguri', sans-serif;
+            /* সুলাইমান লিপি ফন্ট ফ্যামিলি এখানে সেট করা হলো */
+            font-family: 'SolaimanLipi', Arial, sans-serif !important;
         }
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.7;
+            line-height: 1.8;
         }
         header {
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
@@ -35,14 +36,12 @@
         }
         header h1 {
             font-size: 3.2rem;
-            font-weight: 700;
+            font-weight: bold;
             margin-bottom: 0.5rem;
-            letter-spacing: -0.5px;
         }
         header p {
             font-size: 1.25rem;
             color: #94a3b8;
-            font-weight: 400;
         }
         .container {
             max-width: 1150px;
@@ -54,7 +53,7 @@
             margin-bottom: 2.5rem;
             font-size: 2.2rem;
             color: var(--primary-color);
-            font-weight: 700;
+            font-weight: bold;
         }
         .apps-grid {
             display: grid;
@@ -83,7 +82,7 @@
             font-size: 1.85rem;
             color: var(--primary-color);
             margin-bottom: 0.75rem;
-            font-weight: 700;
+            font-weight: bold;
         }
         .app-info p {
             font-size: 1.1rem;
@@ -101,7 +100,7 @@
         .tag {
             font-size: 0.95rem;
             color: #64748b;
-            font-weight: 600;
+            font-weight: bold;
         }
         .btn {
             background: var(--accent-color);
@@ -110,7 +109,7 @@
             border-radius: 8px;
             text-decoration: none;
             font-size: 0.95rem;
-            font-weight: 600;
+            font-weight: bold;
             transition: background 0.2s;
         }
         .btn:hover {
@@ -131,7 +130,7 @@
             color: var(--primary-color);
             font-size: 1.5rem;
             margin-bottom: 1rem;
-            font-weight: 700;
+            font-weight: bold;
         }
         .privacy-box p {
             color: #475569;
@@ -189,7 +188,7 @@
                     <p>দৈনন্দিন জীবনের বিভিন্ন জরুরি মাসয়ালা ও ফাতওয়া সহজ ভাষায় জানার নির্ভরযোগ্য মাধ্যম। আপনার পকেটের ছোট্ট ইসলামিক গাইড।</p>
                 </div>
                 <div class="app-footer">
-                    <span class="tag">Android App</span>
+                    <span class="tag">Android, App</span>
                     <a href="#" class="btn">ডাউনলোড প্লে স্টোর</a>
                 </div>
             </div>
